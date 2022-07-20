@@ -14,7 +14,7 @@ for subi = 1:length(subs)
     
     if ~isempty(inputfilename)
         nativetemplatepath = [fmriprepdir char(subs(subi)) '/template/template_native.nii'];
-        nativize_template_str = [antspath ' -i ' templatepath ' -t ' fmriprepdir char(subs(subi)) '/anat/' char(subs(subi)) '_from-' templateMNIspace '_to-T1w_mode-image_xfm.h5 '  ' -r ' fmriprepdir char(subs(subi)) '/anat/' char(subs(subi)) '_desc-preproc_T1w.nii.gz -o ' nativetemplatepath];
+        nativize_template_str = [antspath ' -i ' templatepath ' -t ' fmriprepdir char(subs(subi)) '/anat/' char(subs(subi)) '_from-' templateMNIspace '_to-T1w_mode-image_xfm.h5 '  ' -r ' fmriprepdir char(subs(subi)) '/anat/' char(subs(subi)) '_desc-preproc_T1w.nii.gz' ' -o ' nativetemplatepath];
         if ~exist(nativetemplatepath, 'file')
             system(nativize_template_str);
         end
