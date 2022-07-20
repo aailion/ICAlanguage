@@ -20,6 +20,10 @@ https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
 https://sourceforge.net/projects/advants/files/
 https://www.mathworks.com/matlabcentral/fileexchange/10161-mean-shift-clustering
 
+Matlab requirements:
+SPM12
+MeanShiftCluster
+
 We suggest preprocessing anatomical and resting state fMRI data through fMRIPrep. If planning on utilizing validation aspect of pipeline (comparison to task activation results), generate first-level activation T-map of task-fMRI data. We used SPM for this part.
 
 The template usd for the motor mapping (wIMM) is provided, and is the precentral and post central gyri from the Human Motor Area Template (HMAT):
