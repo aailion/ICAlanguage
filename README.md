@@ -24,6 +24,8 @@ Matlab requirements:
 SPM12
 MeanShiftCluster
 
+If you are using output of fMRIprep 21.0.2 use ANTs version 2.4 to be use ANTsapplytransformers binary
+
 We suggest preprocessing anatomical and resting state fMRI data through fMRIPrep. If planning on utilizing validation aspect of pipeline (comparison to task activation results), generate first-level activation T-map of task-fMRI data. We used SPM for this part.
 
 The template usd for the motor mapping (wIMM) is provided, and is the precentral and post central gyri from the Human Motor Area Template (HMAT):
