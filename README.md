@@ -1,7 +1,9 @@
-# ICA motor
+# ICA Language
 This pipeline extracts the dimension of resting state fMRI data representative of a functional network through independent component analysis (ICA). The method uses independent component estimation, template matching and clustering of the results given a template representing target network.
-Here we used a motor template and named the resulting map "whole-brain ICA Motor Map" (wIMM). The method can potentially be used for other functional networks, such as language, to replace task-based mapping (ongoing study).
-Please cite our preprint of the method and results in children with epilepsy: Krishnamurthy et. al. medRxiv 2022 DOI: https://doi.org/10.1101/2022.02.04.22270184) 
+In the past this has been used with a a motor template and named the resulting map "whole-brain ICA Motor Map" (wIMM). 
+The method can potentially be used for other functional networks, such as language, to replace task-based mapping (ongoing study).
+
+Please cite our preprint of the method and results in children with epilepsy and motor: Krishnamurthy et. al. medRxiv 2022 DOI: https://doi.org/10.1101/2022.02.04.22270184) 
 Found at: https://www.medrxiv.org/content/10.1101/2022.02.04.22270184v1
 
 The method has 3 steps:
